@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+.img-responsive
+{
+display: block;
+max-width: 100%;
+height: auto;
+}
+
+.cadre {
+	 border:solid thin black;
+}
+
+.centre {
+	text-align: center;
+}
+
+.smallitalic {
+	color: gray;
+	font-size: 0.8em;	
+	font-style: italic;
+}
+
+.espace {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.gris {
+	color: gray;
+}
+
+.bleu {
+	color: #8080ff;
+}
+
+.titre {
+	font-size: 1.1em;
+}
+
+.carousselle {
+	height: 340px;
+	text-align: center;	
+	border: solid 1px lightgray;
+	background-color: white;
+}
+.nobackground {
+	background: transparent !important;
+}

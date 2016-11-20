@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	    <meta charset="UTF-8">
+	    <title>Raymond SOUTO - Curriculum vitae</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+        
+    </head>
+    
+    <body>
+    	<div class="container">
+	    <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+    	    <div class="container">
+        	    <div class="navbar-header">
+            	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuitems">
+                	    <span class="sr-only">Toggle navigation</span>
+                    	<span class="icon-bar"></span>
+                	    <span class="icon-bar"></span>
+            	        <span class="icon-bar"></span>
+        	        </button>
+    	        </div>
+	            <div class="collapse navbar-collapse" id="menuitems">
+	                <ul class="nav navbar-nav">
+    	                <li><a href="index.html">Accueil</a></li>
+        	            <li class="active"><a href="presentation.html">Présentation</a></li>
+                	</ul>
+	                <ul class="nav navbar-nav navbar-right">
+        	            <li><a href="competences.html">Compétences</a></li>
+    	                <li><a href="experiences.html">Expériences</a></li>
+	                    <li><a href="formations.html">Formations</a></li>
+                    	<li><a href="metiers.html">Connaissances métiers</a></li>
+                	</ul>
+            	</div>
+        	</div>
+    	</nav>
+    	
+    	<! Début du contenu 
+    	   ----------------------------------------------------------------------------- !>
+
+		<div class="col-sm-3">
+			<div id="Carousselle" class="carousel slide" data-ride="carousel">  
+				<ol class="carousel-indicators">    
+					<li data-target="#Carousselle" data-slide-to="0" class="active"></li>
+					<li data-target="#Carousselle" data-slide-to="1"></li>
+					<li data-target="#Carousselle" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active carousselle">
+						<center><img src="ressources/raymond.jpg" alt="Raymond SOUTO"></center>
+						<div class="carousel-caption"></div>
+					</div>
+				
+					<div class="item carousselle">
+						<br/>
+						<h3>Raymond SOUTO</h3>
+						<br/>
+						4, impasse Auguste RODIN<br/>
+						42400 SAINT CHAMOND<br/>
+						<br/>
+						33-612.638.504<br/>
+						<br/>
+						souto@free.fr<br/>
+						<br/>
+						Mobilité<br/>
+						Rhône - Loire<br/>
+						<br/>
+					</div>
+				
+					<div class="item carousselle">
+						<br/>
+						<h3>Raymond SOUTO</h3>
+						<br/>
+            			<h4>Chef de Projet Expérimenté</h4>
+        	    		<br/>
+    	        		Conception de solutions informatiques<br/>
+    	        		<br/>
+    	        		Conduite de projets, <br/>
+    	        		Management d’équipes<br/>
+	            		<br/>
+            			Conseils et Organisation<br/>
+            			Formation<br/>
+            			<br/>
+            		</div>
+				</div>
+				<a class="left carousel-control nobackground" href="#bestSellers" dataslide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control nobackground" href="#bestSellers" dataslide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+
+		<div class="col-sm-9">
+			<br/>
+			Bonjour et bienvenu(e) sur ces pages,<br/>
+			<br/>
+			<p>De formation Ingénieur, je me suis spécialisé dans la gestion de projet informatique, initialement dans le cadre de logiciels de gestion industriel et puis, plus largement dans l'ingenieurie informatique.</p>
+
+			<p>Lors de mes récentes missions, j'ai essentiellement travaillé dans le monde du Web. 
+			J'ai ainsi piloté la TMA des sites internet du GRAND LYON pendant plus de 4 ans, dont la mise en place des services infotrafic sur le web (et appli mobiles) ainsi que l OPEN DATA.
+			J'ai également piloté des projets d'applications web en technologie ASP.Net, des application mobiles et mis en ligne des services de gestion d'un opérateur mutualiste .</p>
+
+			<p>A vrai dire, les nouvelles technologies et les nouveaux usages m'intéressent tout particulièrement. A titre personnel, j'étudie actuellement l'internet des objets connectés et leurs interactions,
+			 autour de ce que l'on appelle la Home Intelligence (Internet 3.0).</p>
+
+			<p>Je ré-actualise mes connaissances techniques et suis à la recherche de nouvelles opportunités professionnelles.</p>
+			<p>Mes motivations : une équipe dynamique, des responsabilités, des projets novateurs et motivants.</p>
+
+			<p>N'hésitez pas à me contacter ...<P>
+		
+		</div>
+
+    	<! Fin du contenu 
+    	   ----------------------------------------------------------------------------- !>
+    	<div class="col-sm-12">
+    	<hr><div class="col-md-4">
+    		<p class="smallitalic">Ce site a été réalisé avec BootStrap <u>et rien d'autre !!!</u></p>
+    	</div><div class="col-md-4 centre">
+    	<a href="ressources/cv-souto.pdf">
+    		<span class="glyphicon glyphicon-file espace"></span><span>Telecharger mon CV au format pdf</span>
+    	</a>
+    	</div>
+    	<div class="col-md-4 centre">
+	    	<a href="#" id="contacter" data-toggle="modal" data-target="#modalContact">
+	    		<span class="glyphicon glyphicon-envelope espace"></span><span>Me Contacter</span>
+	    	</a>
+    	</div>
+    	</div>
+    	
+     <! Modal 
+    	----------------------------------------------------------------------------- !>
+ 		<div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-hidden="true">
+  			<div class="modal-dialog" role="document">
+    			<div class="modal-content">
+    
+      				<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+        				</button>
+        				<h4 class="modal-title">Contact</h4>
+      				</div>
+      
+      				<div class="modal-body">
+        
+						<div id="accordion">
+  							<div class="panel panel-default">
+    							<div class="panel-heading" role="tab">
+      								<h4 class="panel-title">
+        								<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Telephone" aria-expanded="false" aria-controls="Telephone">
+          								<span class="glyphicon glyphicon-phone-alt espace"></span><span>&nbspTéléphone</span>
+        								</a>
+      								</h4>
+    							</div>
+    							<div id="Telephone" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Telephone">
+									<br/>Vous pouvez me joindre au <b>33- 612 638 504</b><br/>
+									Merci de privilégier le SMS<br/><br/>
+								</div>
+  							</div>
+  			
+  							<div class="panel panel-default">
+    							<div class="panel-heading" role="tab">
+      								<h4 class="panel-title">
+        								<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Email" aria-expanded="true" aria-controls="Email">
+        								<span class="glyphicon glyphicon-envelope espace"></span><span>&nbspEmail</span>
+        								</a>
+      								</h4>
+    							</div>
+    							<div id="Email" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Email">
+    								<br/>
+    								<form action="mailto:souto@free.fr" method="POST" class="form-horizontal">
+        								<div class="form-group">          
+        									<label for="yourEmail" class="col-sm-1 control-label"> </label>
+          									<div class="col-sm-10">
+            									<div class="input-group">
+              										<span class="input-group-addon">@</span>
+              										<input type="email" class="form-control" id="yourEmail" placeholder="votre email">
+            									</div>
+          									</div>
+          									<div class="col-sm-1"> </div>
+          								</div>
+          				
+          								<div class="form-group">          
+        									<label for="subject" class="col-sm-1 control-label"> </label>
+          									<div class="col-sm-10">
+            									<div class="input-group">
+              										<span class="input-group-addon">&nbsp?</span>
+              										<input type="text" class="form-control" id="Subject" placeholder="titre">
+            									</div>
+          									</div>
+          									<div class="col-sm-1"> </div>
+        								</div>
+        		
+              							<div class="form-group">
+          									<label for="body" class="col-sm-1 control-label"> </label>
+          									<div class="col-sm-10">
+            									<div class="input-group">
+            										<span class="input-group-addon glyphicon glyphicon-comment"></span>
+              										<textarea class="form-control" id="Body" placeholder="votre texte ..." rows="3"></textarea>
+            									</div>
+          									</div>
+        								</div>
+        				
+        								<div class="form-group">
+        									<div class="col-sm-11 text-right">
+          										<button type="submit" class="btn btn-primary">
+          											<span class="glyphicon glyphicon-envelope"></span>&nbsp;Envoyer
+          										</button>
+          									</div>
+        								</div>
+      								</form>
+								</div>
+  							</div>
+      					</div>  
+      				</div>
+      
+      				<div class="modal-footer">
+      					<button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+      				</div>
+    			</div>
+  			</div>
+		</div>
+		</div>
+    </body>
+</html>

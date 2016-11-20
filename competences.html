@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	    <meta charset="UTF-8">
+	    <title>Raymond SOUTO - Curriculum vitae</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+        
+    </head>
+    
+    <body>
+    	<div class="container"> 
+	    <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+    	    <div class="container">
+        	    <div class="navbar-header">
+            	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuitems">
+                	    <span class="sr-only">Toggle navigation</span>
+                    	<span class="icon-bar"></span>
+                	    <span class="icon-bar"></span>
+            	        <span class="icon-bar"></span>
+        	        </button>
+    	        </div>
+	            <div class="collapse navbar-collapse" id="menuitems">
+	                <ul class="nav navbar-nav">
+    	                <li><a href="index.html">Accueil</a></li>
+        	            <li><a href="presentation.html">Présentation</a></li>
+                	</ul>
+	                <ul class="nav navbar-nav navbar-right">
+        	            <li class="active"><a href="competences.html">Compétences</a></li>
+    	                <li><a href="experiences.html">Expériences</a></li>
+	                    <li><a href="formations.html">Formations</a></li>
+                    	<li><a href="metiers.html">Connaissances métiers</a></li>
+                	</ul>
+            	</div>
+        	</div>
+    	</nav>
+    	<! Fin du menu 
+    	   ----------------------------------------------------------------------------- !>
+
+		<br/><br/>
+		<div id="accordion">
+  			<div class="panel panel-default">
+    			<div class="panel-heading" role="tab" id="header3">
+      				<h4 class="panel-title">
+        				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Management" aria-expanded="false" aria-controls="Management">
+          				Management
+          				<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+        				</a>
+      				</h4>
+    			</div>
+    			<div id="Management" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Management">
+					<br/>
+					<ul><li>Management des équipes de production (10 personnes / projet) et intervenants externes,</li>
+					<li>Mise en place des bonnes pratiques, amélioration continue.</li></ul>    			
+				</div>
+  			</div>
+  			
+  			<div class="panel panel-default">
+    			<div class="panel-heading" role="tab" id="header4">
+      				<h4 class="panel-title">
+        				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Projet" aria-expanded="false" aria-controls="Projet">
+          				Gestion de Projet
+          				<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+        				</a>
+      				</h4>
+    			</div>
+    			<div id="Projet" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Projet">
+					<br/>
+					<ul><li>Coordination de la charge et des ressources, consolidation budgétaire,</li>
+					<li>Animation des suivis opérationnels, comités de pilotage, team meetings, …</li>
+					<li>Analyse des risques,</li>
+					<li>Gestion de projets internationaux.</li></ul>
+    			</div>
+  			</div>
+  			
+  			<div class="panel panel-default">
+    			<div class="panel-heading" role="tab" id="header5">
+      				<h4 class="panel-title">
+        				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Etudes" aria-expanded="false" aria-controls="Etudes">
+          				Etudes et conception
+          				<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+        				</a>
+      				</h4>
+    			</div>
+    			<div id="Etudes" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Etudes">
+					<br/>
+					<ul><li>Recueil des besoins, Analyse, Spécifications fonctionnelles et techniques,</li>
+					<li>Validation techniques, proposition de solutions techniques,</li>
+					<li>Elaboration des stratégies de test, qualification fonctionnelle, Optimisations,</li>
+					<li>Appropriation rapide des métiers,</li>
+					<li>Notion en architecture systèmes et réseaux.</li></ul>
+				</div>
+  			</div>
+  			
+  			<div class="panel panel-default">
+    			<div class="panel-heading" role="tab" id="header6">
+      				<h4 class="panel-title">
+        				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Commercial" aria-expanded="false" aria-controls="Commercial">
+          				Commercial
+          				<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+        				</a>
+      				</h4>
+    			</div>
+    			<div id="Commercial" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Commercial">
+    				<br/>
+					<ul><li>Réponses aux appels d’offres privés et publics, </li>
+					<li>Présentations commerciales,</li>
+					<li>Devis techniques,</li>
+					<li>Suivi budgétaire des affaires et clients,</li>
+					<li>Développement de l’activité du centre de production PHP.</li></ul>   			
+				</div>
+  			</div>
+		</div>
+		
+    	<! Fin du contenu 
+    	   ----------------------------------------------------------------------------- !>
+    	<hr><div class="col-md-4">
+    		<p class="smallitalic">Ce site a été réalisé avec BootStrap <u>et rien d'autre !!!</u></p>
+    	</div><div class="col-md-4 centre">
+    	<a href="ressources/cv-souto.pdf">
+    		<span class="glyphicon glyphicon-file espace"></span><span>Telecharger mon CV au format pdf</span>
+    	</a>
+    	</div>
+    	<div class="col-md-4 centre">
+	    	<a href="#" id="contacter" data-toggle="modal" data-target="#modalContact">
+	    		<span class="glyphicon glyphicon-envelope espace"></span><span>Me Contacter</span>
+	    	</a>
+    	</div>
+    	
+     <! Modal 
+    	----------------------------------------------------------------------------- !>
+ 		<div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-hidden="true">
+  			<div class="modal-dialog" role="document">
+    			<div class="modal-content">
+    
+      				<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+        				</button>
+        				<h4 class="modal-title">Contact</h4>
+      				</div>
+      
+      				<div class="modal-body">
+        
+						<div id="accordion">
+  							<div class="panel panel-default">
+    							<div class="panel-heading" role="tab">
+      								<h4 class="panel-title">
+        								<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Telephone" aria-expanded="false" aria-controls="Telephone">
+          								<span class="glyphicon glyphicon-phone-alt espace"></span><span>&nbspTéléphone</span>
+        								</a>
+      								</h4>
+    							</div>
+    							<div id="Telephone" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Telephone">
+									<br/>Vous pouvez me joindre au <b>33- 612 638 504</b><br/>
+									Merci de privilégier le SMS<br/><br/>
+								</div>
+  							</div>
+  			
+  							<div class="panel panel-default">
+    							<div class="panel-heading" role="tab">
+      								<h4 class="panel-title">
+        								<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Email" aria-expanded="true" aria-controls="Email">
+        								<span class="glyphicon glyphicon-envelope espace"></span><span>&nbspEmail</span>
+        								</a>
+      								</h4>
+    							</div>
+    							<div id="Email" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Email">
+    								<br/>
+    								<form action="mailto:souto@free.fr" method="POST" class="form-horizontal">
+        								<div class="form-group">          
+        									<label for="yourEmail" class="col-sm-1 control-label"> </label>
+          									<div class="col-sm-10">
+            									<div class="input-group">
+              										<span class="input-group-addon">@</span>
+              										<input type="email" class="form-control" id="yourEmail" placeholder="votre email">
+            									</div>
+          									</div>
+          									<div class="col-sm-1"> </div>
+          								</div>
+          				
+          								<div class="form-group">          
+        									<label for="subject" class="col-sm-1 control-label"> </label>
+          									<div class="col-sm-10">
+            									<div class="input-group">
+              										<span class="input-group-addon">&nbsp?</span>
+              										<input type="text" class="form-control" id="Subject" placeholder="titre">
+            									</div>
+          									</div>
+          									<div class="col-sm-1"> </div>
+        								</div>
+        		
+              							<div class="form-group">
+          									<label for="body" class="col-sm-1 control-label"> </label>
+          									<div class="col-sm-10">
+            									<div class="input-group">
+            										<span class="input-group-addon glyphicon glyphicon-comment"></span>
+              										<textarea class="form-control" id="Body" placeholder="votre texte ..." rows="3"></textarea>
+            									</div>
+          									</div>
+        								</div>
+        				
+        								<div class="form-group">
+        									<div class="col-sm-11 text-right">
+          										<button type="submit" class="btn btn-primary">
+          											<span class="glyphicon glyphicon-envelope"></span>&nbsp;Envoyer
+          										</button>
+          									</div>
+        								</div>
+      								</form>
+								</div>
+  							</div>
+      					</div>  
+      				</div>
+      
+      				<div class="modal-footer">
+      					<button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+      				</div>
+    			</div>
+  			</div>
+		</div>
+	</div>
+</body>
+</html>
