@@ -7,6 +7,10 @@ max-width: 100%;
 height: auto;
 }
 
+.hamburger-left {
+	float: left;
+}
+
 .cadre {
 	 border:solid thin black;
 }
